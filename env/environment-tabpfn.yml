@@ -1,0 +1,17 @@
+# TabPFN environment
+# Exact runtime metadata should be archived from Notebook 05.
+# The author's validated setup used Python 3.11 and PyTorch 2.5.1+cu121
+# with CUDA on an RTX 2060 6GB GPU.
+name: soccermon-tabpfn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - torch==2.5.1
+      - tabpfn

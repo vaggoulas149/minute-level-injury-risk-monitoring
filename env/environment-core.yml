@@ -1,0 +1,15 @@
+name: soccermon-core
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.16
+  - numpy=2.4.6
+  - pandas=3.0.5
+  - scikit-learn=1.9.0
+  - matplotlib
+  - jupyterlab
+  - pip
+  - pip:
+      - xgboost==3.2.0
+      - imbalanced-learn==0.14.2
+      - sdv==1.38.3

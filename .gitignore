@@ -1,0 +1,20 @@
+# Raw/restricted data
+data/
+raw/
+subjective/
+
+# Generated results
+results/
+
+# Local environments and caches
+.env
+*.env
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
